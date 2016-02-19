@@ -1,0 +1,97 @@
+{
+    "questions": [
+        {
+            "answer": "123",
+            "choices": [
+                "234",
+                "123",
+                "145",
+                "168"
+            ],
+            "statement": "A number A is said to be \u2018seed\u2019 of number of B if multiplying A by its digits equates to B. Among the following numbers, which is a seed of 738.",
+            "type": "choice"
+        },
+        {
+            "answer": "yes",
+            "statement": "Will the program compile?<pre class=\"prettyprint\">\n#include&lt;stdio.h&gt;\n\tint main()\n{\n\tchar str[5] = \"Howisthetestgoing?\";\n\treturn 0;\n}</pre>",
+            "type": "text"
+        },
+        {
+            "answer": "2",
+            "choices": [
+                "8",
+                "6",
+                "4",
+                "2"
+            ],
+            "statement": "What is the last digit of 358^99?",
+            "type": "choice"
+        },
+        {
+            "answer": "330",
+            "choices": [
+                "330",
+                "120960",
+                "13!",
+                "520"
+            ],
+            "statement": "A robot is located at the top-left corner of a 5*8 grid. The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid. How many possible unique paths are there?",
+            "type": "choice"
+        },
+        {
+            "answer": "3:2",
+            "choices": [
+                "1:3",
+                "3:2",
+                "3:4",
+                "3:1"
+            ],
+            "statement": "Two trains running in opposite directions cross a man standing on the platform in 27 seconds and 17 seconds respectively and they cross each other in 23 seconds. The ratio of their speeds is:",
+            "type": "choice"
+        },
+        {
+            "answer": "20",
+            "choices": [
+                "27",
+                "20",
+                "22",
+                "24"
+            ],
+            "statement": "Find the next number, given: 8, 7, 11, 12, 14, 17, 17, 22, (....)",
+            "type": "choice"
+        },
+        {
+            "answer": "16",
+            "choices": [
+                "28",
+                "8",
+                "16",
+                "24"
+            ],
+            "statement": "All the opposite faces of a big cube are coloured with red, black and green colours. After that is cut into 64 small equal cubes. How many small cubes are there where one face is green and other one is either black or red?",
+            "type": "choice"
+        },
+        {
+            "answer": "",
+            "statement": "There is a Kingdom, a King, and a Queen. A carnival is scheduled. The King orders 1000 bottles of wine for the carnival. The Queen wants to kill the King. Queen sends an assassin to mix poison in ONE of the 1000 bottles. The effect of the poison is such that the person who took it, will die after 1 day. Somehow the King happened to know about the conspiracy, and wants to find the poisonous bottle. The King has 10 prisoners on whom he can use the wine to test, whether it\u2019s poisonous. Help our king find out the minimum number of day/s required to find the poisonous bottle, so that he can reschedule carnival and hence live.",
+            "type": "text"
+        },
+        {
+            "answer": "",
+            "statement": "You have 20 bottles of pills. 19 bottles have 1.0 gram pills, but one has pills of weight 1.1 grams. Given a scale that provides an exact measurement, how would you find the heavy bottle? You can only use the scale once. Note: There are infinite pills in each bottle.",
+            "type": "text"
+        },
+        {
+            "answer": "",
+            "statement": "Determine the output. <pre class=\"prettyprint\"> \n#include&lt;stdio.h&gt;\nint main()\n{\n\tunsigned int 7x=511,count=0;\n\twhile(x)\n\t{\n\t\tcount++;\n\t\tx=x&(x-1);\n\t}\n\tprintf(\"%d\",count);\n\treturn 0;\n}</pre>",
+            "type": "text"
+        },
+        {
+            "answer": "",
+            "statement": "Given two strings A and B, write a function or an algorithm which returns true if B is a permutation of A",
+            "type": "code"
+        }
+    ],
+    "title": "Junior's Aptitude test",
+    "time": 20
+}

@@ -1,0 +1,38 @@
+<head>
+
+    <meta content='width=device-width, initial-scale=1' name='viewport'/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='semantic-ui/semantic.min.css') }}" />
+    <script type="text/javascript" src="{{ url_for('static', filename='semantic-ui/semantic.min.js') }}"></script>
+    
+</head>
+
+<body>
+
+    <div class="ui center aligned grid container" style="margin-top: 2%;">
+        
+        <div class="ui row">
+            <h1 class="ui blue header">Enter the Aptitude Test </h1>
+        </div>
+        
+        <div class="ui row">
+            <form class="ui form" method="post">
+                <div class="field">
+                    <div class="ui labeled input">
+                        <div class="ui label">Name: </div>
+                        <input type="text" class="ui text" name="name">
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui labeled input">
+                        <div class="ui label">USN: </div>
+                        <input type="text" class="ui text" name="usn">
+                    </div>
+                </div>
+                <br><br>
+                <input type="submit" value="Start the test" class="ui blue button" />
+            </form>
+        </div>
+        
+    </div>
+    
+</body>
